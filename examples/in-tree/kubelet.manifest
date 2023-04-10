@@ -14,7 +14,6 @@
     --cluster-dns=10.0.0.10 \
     --cluster-domain=cluster.local \
     --enforce-node-allocatable=pods \
-    --event-qps=0 \
     --eviction-hard=memory.available<750Mi,nodefs.available<10%,nodefs.inodesFree<5% \
     --feature-gates=PodPriority=true,RotateKubeletServerCertificate=true \
     --image-gc-high-threshold=85 \
